@@ -16,6 +16,7 @@ header {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 24pt;
 	padding: 2%;
+	text-align: right;
 }
 nav {
 	height: 10%;
