@@ -15,7 +15,7 @@ header {
 	width: 100%;
 	margin: 0;
 	font-family: 'Titillium Web', sans-serif;
-	float: right;
+	text-align: right;
 	font-size: 24pt;
 	padding: 2%;
 }
