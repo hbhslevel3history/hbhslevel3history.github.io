@@ -29,10 +29,10 @@ nav ul{
 	list-style: none;
 	background-color: #06799F;
 	width: 100%;
+	padding: 16.6%;
 }
 nav ul li{
 	width: 33.3%;
-	padding: 16.6%;
 	float: left;
 	height: 100%;
 	background-color: #06799F;
