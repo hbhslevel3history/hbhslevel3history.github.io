@@ -32,8 +32,8 @@ nav ul{
 	width: 100%;
 }
 nav ul li{
-	width: 33%;
-	float: middle;
+	width: 33.3%;
+	float: left;
 	height: 100%;
 	background-color: #06799F;
 }
