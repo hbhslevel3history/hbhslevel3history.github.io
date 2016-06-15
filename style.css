@@ -23,9 +23,13 @@ nav {
 	height: 10%;
 	background-color: #06799F;
 	margin: 0;
-	padding: 0;
 	font-size: 18pt;
 	padding: 1%;
+}
+nav ul{
+	padding:0; 
+	margin:0;
+	list-style-type: none;
 }
 section {
 	background-color: #FFF;
