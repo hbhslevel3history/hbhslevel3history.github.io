@@ -29,11 +29,13 @@ nav ul{
 	padding:0; 
 	margin:0;
 	list-style: none;
+	background-color: #06799F;
 }
 nav ul li{
 	width: 33%;
 	float: left;
 	height: 100%;
+	background-color: #06799F;
 }
 section {
 	background-color: #FFF;
