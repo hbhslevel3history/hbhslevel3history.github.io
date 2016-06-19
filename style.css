@@ -33,11 +33,9 @@ nav ul{
 }
 nav ul li{
 	width: 33.3%;
-
 	float: left;
 	height: 100%;
 	background-color: #06799F;
-	text-align: center;
 }
 section {
 	background-color: #FFF;
