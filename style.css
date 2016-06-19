@@ -32,10 +32,11 @@ nav ul{
 	width: 100%;
 }
 nav ul li{
-	width: 33.3%;
+	width: 33.33%;
 	float: left;
 	height: 100%;
 	background-color: #06799F;
+	padding: 2%;
 }
 section {
 	background-color: #FFF;
