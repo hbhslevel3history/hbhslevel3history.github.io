@@ -42,11 +42,9 @@ nav ul li{
 section {
 	background-color: #FFF;
 	width: 80%;
-	margin-left: 5%;
-	margin-right: 5%;
 	padding: 2%;
 	padding-top: 0;
-	float: left;
+	float: middle;
 }
 footer {
 	height: 10%;
