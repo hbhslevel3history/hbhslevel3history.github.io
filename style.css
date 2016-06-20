@@ -8,7 +8,6 @@ body {
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
-	float: left;
 }
 header {
 	height: 10%;
@@ -19,11 +18,13 @@ header {
 	color: #fff;
 	padding: 2%;
 	text-align: right;
+	float: left;
 }
 nav {
 	background-color: #06799F;
 	margin: 0;
 	font-size: 18pt;
+	float: left;
 }
 nav ul{
 	margin:0;
@@ -44,6 +45,7 @@ section {
 	width: 80%;
 	margin: 0% 10% 0% 10%;
 	padding: 2% 2% 2% 2%;
+	float: left;
 }
 footer {
 	height: 10%;
@@ -51,6 +53,7 @@ footer {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	float: left;
 }
 h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
