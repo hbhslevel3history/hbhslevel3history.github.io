@@ -8,6 +8,7 @@ body {
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
+	float: left;
 }
 header {
 	height: 10%;
