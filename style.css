@@ -44,7 +44,8 @@ section {
 	width: 80%;
 	padding: 2%;
 	padding-top: 0;
-	float: middle;
+	float: left;
+	margin-left: 7.5%;
 }
 footer {
 	height: 10%;
