@@ -65,3 +65,7 @@ h3 {
 	font-size: 12pt;
 	font-style: strong;
 }
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
