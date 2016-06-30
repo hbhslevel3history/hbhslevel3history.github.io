@@ -102,6 +102,9 @@ h3 {
 	font-style: strong;
 }
 .img-align-right {
-    float: right;
-    margin: 0 0 10px 10px;
+    	float: right;
+    	margin: 0 0 10px 10px;
+}
+#mySearch {
+	height: 24pt;	
 }
