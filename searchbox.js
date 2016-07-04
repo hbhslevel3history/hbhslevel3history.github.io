@@ -1,1 +1,0 @@
-var domainroot="www.hbhslevel3history.github.io"
