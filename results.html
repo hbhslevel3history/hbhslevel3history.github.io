@@ -25,8 +25,11 @@
 	</nav>
 	<section>
 		<p><?php
-  				$name = $_REQUEST['search'];
-  				echo $name; 
+  				if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    					// collect value of input field
+    				$name = $_REQUEST['fname'];
+    				echo $name;
+    				}
   			?>
   		</p>
 	</section>
