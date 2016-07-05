@@ -13,7 +13,7 @@
 		<form>
 			<input type="search" id="mySearch" placeholder="Search for something..">
 			<input type="submit">
-		</form>
+		</form>  
 		
 	</header>
 	<nav>
@@ -24,9 +24,11 @@
 		</ul>	
 	</nav>
 	<section>
-		<p>Welcome to this website about HBHS Level 3 History, and the topics that are studied in the externals that the students sit.</p>
-		<p>From here, you can go to the different topics by clicking the links above, or use the search box above to search for specific key words or phrases.</p>
-		<img src='images/sample.png' />
+		<p><?php
+  				$name = $_REQUEST['search'];
+  				echo $name; 
+  			?>
+  			</p>
 	</section>
 	<footer>
 	</footer>
