@@ -9,10 +9,21 @@
 <body>
 	<header>
 		<a href="index.html">HBHS Level 3 History</a>
-		<form>
-			<input type="search" id="mySearch" placeholder="Search for something..">
-			<input type="submit" placeholder="images/search.png">
-		</form>
+			<?php
+			// define variables and set to empty values
+		$search = "";
+
+?>
+
+<h2>PHP Form Validation Example</h2>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+	<input type="search" id="mySearch" placeholder="Search for something.." value="search">
+			<input type="submit" name ="submit" value="Submit">
+</form>
+
+<?php
+echo $search;
+?>
 		
 	</header>
 	<nav>
