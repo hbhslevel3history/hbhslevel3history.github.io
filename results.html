@@ -5,11 +5,7 @@
 	<title>HBHS Level 3 History</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web|Yanone+Kaffeesatz|Open+Sans' rel='stylesheet' type='text/css'>
-	<script type="text/javascript">
-		if (document.body.innerHTML.search("Done successfully!") == true)
-		alert ('DAMN');
-});
-</script>
+	<script src="jquery-1.12.4.min.js"></script>
 </head>
 <body>
 	<header>
@@ -28,9 +24,15 @@
 		</ul>	
 	</nav>
 	<section>
-			
-		Done successfully!
-
+		<p class="item">
+			Dennis
+		</p>
+		<script>	
+		if ($('.item').text().indexOf("Dennis") != -1)
+		{
+    			alert('found Dennis');    
+		}
+		</script>
 
 	</section>
 	<footer>
