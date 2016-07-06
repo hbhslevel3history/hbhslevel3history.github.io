@@ -24,11 +24,15 @@
 		</ul>	
 	</nav>
 	<section>
-		<p><?php
-    			$name = $_REQUEST['search'];
-    			echo $name;
-  			?>
-  		</p>
+		<?php
+		
+			$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+			echo $url;
+			
+			
+
+
+
 	</section>
 	<footer>
 	</footer>
