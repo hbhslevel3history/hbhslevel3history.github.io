@@ -32,10 +32,7 @@
 		{
     			alert('found Dennis');    
 		}
-	    		var URI = 'www.example.com/folder/code/12345/',
- 			 parts = URI.split('/'),
- 	    		lastPart = parts.pop() == '' ? parts[parts.length - 1] : parts.pop();
- 	    		alert(lastPart);
+	    		
  	    		$(document).ready(function() {
  					//jquery
      				$(location).attr('href');
@@ -45,6 +42,10 @@
  	
  				// to show it in an alert window
      					alert(window.location);
+     					
+ 			 parts = pathname.split('/'),
+ 	    		lastPart = parts.pop() == '' ? parts[parts.length - 1] : parts.pop();
+ 	    		alert(lastPart);
  				});
 		</script>
 
