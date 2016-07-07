@@ -40,8 +40,8 @@
  				// to show it in an alert window
      					alert(pathname);
      					
- 			var search = pathname.search.split('=')
- 			alert(search);
+ 			var output = pathname.search.split(/[, ]+/).pop();
+ 			alert(output);
  				});
 		</script>
 
