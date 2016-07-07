@@ -27,7 +27,11 @@
 		<p class="item">
 			Dennis
 		</p>
-		<script>	
+		<script>
+		if ($('.item').text().indexOf("Dennis") != -1)
+		{
+    			alert('found Dennis');    
+		}
 	    		var URI = 'www.example.com/folder/code/12345/',
  			 parts = URI.split('/'),
  	    		lastPart = parts.pop() == '' ? parts[parts.length - 1] : parts.pop();
