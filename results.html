@@ -43,8 +43,7 @@
  				// to show it in an alert window
      					alert(window.location);
      					
- 			 parts = pathname.split('/'),
- 	    		lastPart = parts.pop() == '' ? parts[parts.length - 1] : parts.pop();
+ 			var search= pathname.lastIndexOf('/') +1;
  	    		alert(lastPart);
  				});
 		</script>
