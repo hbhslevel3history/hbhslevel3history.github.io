@@ -39,8 +39,9 @@
  				// to show it in an alert window
      					alert(pathname);
      			 var search = pathname.search.split('=')
-     			 lastOne = search[search.length-1]
- 			alert(lastOne);
+     			 result = search[search.length-1]
+     			 result = decodeURIComponent(result)
+ 			alert(result);
  				});
 		</script>
 
