@@ -33,17 +33,13 @@
     			alert('found Dennis');    
 		}
 	    		
- 	    		$(document).ready(function() {
- 					//jquery
-     				$(location).attr('href');
- 
  					//pure javascript
  				var pathname = window.location.pathname;
  	
  				// to show it in an alert window
      					alert(pathname);
      					
- 			var search = pathname.split('/').pop();
+ 			var search = pathname.split('=').pop();
  	    		alert(search);
  				});
 		</script>
