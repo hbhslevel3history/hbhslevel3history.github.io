@@ -107,10 +107,12 @@ h3 {
     	float: right;
     	margin: 0 0 10px 10px;
 }
+form {
+	height: 10%;
+}
 #mySearch {
 	float: left;
 	font-size: 18pt;
 	margin: 0;
 	padding: 0;
-	height: 10%;
 }
