@@ -25,22 +25,19 @@
 			Dennis
 		</p>
 		<script>
-		if ($('.item').text().indexOf("Dennis") != -1)
-		{
-    			alert('found Dennis');    
-		}
-	    			$(document).ready(function() {
- -     				$(location).attr('href');
- 					//pure javascript
+	    		$(document).ready(function() {
+	    			$(location).attr('href');
  				var pathname = window.location;
- 	
- 				// to show it in an alert window
-     					alert(pathname);
-     			 var search = pathname.search.split('=')
-     			 result = search[search.length-1]
-     			 result = result.replace('+', ' ');
- 			alert(result);
- 				});
+     				alert(pathname);
+     			 	var search = pathname.search.split('=')
+     			 	result = search[search.length-1]
+     			 	result = result.replace('+', ' ');
+ 				alert(result);
+ 			});
+ 			if ($('.item').text().indexOf("Dennis") != -1)
+			{
+    				alert('found Dennis');    
+			}
 		</script>
 
 	</section>
