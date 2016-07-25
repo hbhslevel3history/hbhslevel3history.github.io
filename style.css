@@ -118,4 +118,5 @@ form {
 #submitButton {
 	height: 10%;
 	width: 10%;
+	background-image: url('/images/search.png');
 }
