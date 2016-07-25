@@ -118,4 +118,5 @@ form {
 #submitButton {
 	font-size: 0.7em;
 	background-image: url('/images/search.png');
+	 background-repeat: no-repeat;
 }
