@@ -113,8 +113,9 @@ form {
 	padding: 0;
 }
 #mySearch {
-	font-size: 1em;
+	font-size: 0.7em;
 }
 #submitButton {
+	font-size: 0.7em;
 	background-image: url('/images/search.png');
 }
