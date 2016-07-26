@@ -119,6 +119,6 @@ form {
 	font-size: 0.7em;
 	background-image: url('/images/search.png');
 	background-size: contain;
-	 height: 1em;
-	 width: 1em;
+	background-repeat: repeat;
+	 width: 1.5em;
 }
