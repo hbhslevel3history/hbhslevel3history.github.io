@@ -118,7 +118,7 @@ form {
 #submitButton {
 	font-size: 0.7em;
 	background-image: url('/images/search.png');
-	 background-repeat: no-repeat;
+	background-size: contain;
 	 height: 0.7em;
 	 width: 0.7em;
 }
