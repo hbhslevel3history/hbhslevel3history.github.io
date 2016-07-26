@@ -121,6 +121,10 @@ form {
 	background-size: contain;
 	background-repeat: repeat;
 	width: 1.5em;
+	min-width:100%; 
+	min-height:100%; 
+	width:auto; 
+	height:auto;
 }
 .invisible {
 	opacity: 0;
