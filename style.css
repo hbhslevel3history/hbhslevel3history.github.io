@@ -120,5 +120,8 @@ form {
 	background-image: url('/images/search.png');
 	background-size: contain;
 	background-repeat: repeat;
-	 width: 1.5em;
+	width: 1.5em;
+}
+.invisible {
+	opacity: 0;
 }
