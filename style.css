@@ -118,13 +118,9 @@ form {
 #submitButton {
 	font-size: 0.7em;
 	background-image: url('/images/search.png');
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 1.5em;
-	min-width:100%; 
-	min-height:100%; 
-	width:auto; 
-	height:auto;
 }
 .invisible {
 	opacity: 0;
