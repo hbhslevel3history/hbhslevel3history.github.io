@@ -53,12 +53,8 @@ nav ul {
 	width: 100%;
 }
 nav ul li{
-	flex-grow: 1;
-	float: left;
-	height: 100%;
+	flex-grow: 1;;
 	background-color: #06799F;
-	padding:1% 0% 1% 0%;
-	border-left: #000 solid 2px;
 	color: #fff;
 }
 nav a:link {
