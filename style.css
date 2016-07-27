@@ -39,23 +39,30 @@ header {
 	text-align: right;
 }
 nav {
-	display: flex;
-	background-color: #06799F;
 	margin: 0;
 	font-size: 1.5em;
 	height: 10%;
 }
-nav ul {
-	margin:0;
+nav ul
+{
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #1a4b1d;
+	margin: 0;
 	padding: 0;
-	list-style: none;
-	background-color: #06799F;
-	width: 100%;
+	border-top: 2px #536754 solid;
+	border-bottom: 2px #536754 solid;
+	display: flex;
 }
-nav ul li{
-	flex-grow: 1;;
-	background-color: #06799F;
-	color: #fff;
+nav ul li
+{
+	margin: 0;
+	padding: 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	flex-grow: 1;
+	
 }
 nav a:link {
     text-decoration: none;
