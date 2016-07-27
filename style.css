@@ -47,7 +47,7 @@ nav ul
 {
 	list-style-type: none;
 	text-decoration: none;
-	background-color: #1a4b1d;
+	background-color: #06799F;
 	margin: 0;
 	padding: 0;
 	border-top: 2px #536754 solid;
@@ -62,6 +62,7 @@ nav ul li
 	padding-bottom: 5px;
 	text-align: center;
 	flex-grow: 1;
+	flex-basis: 33%;
 	
 }
 nav a:link {
