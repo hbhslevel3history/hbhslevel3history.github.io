@@ -21,27 +21,29 @@
 			<a href="resources.html"><li>Other Resources</li></a>
 		</ul>	
 	</nav>
-	<section>
-		<p class="item">
-			Dennis
-		</p>
-		<script>
-	    		$(document).ready(function() {
-	    			$(location).attr('href');
- 				var pathname = window.location;
-     				alert(pathname);
-     			 	var search = pathname.search.split('=')
-     			 	result = search[search.length-1]
-     			 	result = result.replace('+', ' ');
- 				alert(result);
- 			});
- 			if ($('.item').text().indexOf("Dennis") != -1)
-			{
-    				alert('found Dennis');    
-			}
-		</script>
-
-	</section>
+	<main>
+		<section>
+			<p class="item">
+				Dennis
+			</p>
+			<script>
+		    		$(document).ready(function() {
+		    			$(location).attr('href');
+	 				var pathname = window.location;
+	     				alert(pathname);
+	     			 	var search = pathname.search.split('=')
+	     			 	result = search[search.length-1]
+	     			 	result = result.replace('+', ' ');
+	 				alert(result);
+	 			});
+	 			if ($('.item').text().indexOf("Dennis") != -1)
+				{
+	    				alert('found Dennis');    
+				}
+			</script>
+	
+		</section>	
+	</main>
 	<footer>
 	</footer>
 </body>
