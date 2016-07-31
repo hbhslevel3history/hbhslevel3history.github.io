@@ -39,7 +39,6 @@ header {
 	text-align: right;
 }
 nav {
-	display: flex;
 	background-color: #06799F;
 	margin: 0;
 	font-size: 1.5em;
