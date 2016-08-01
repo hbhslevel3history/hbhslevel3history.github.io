@@ -2,7 +2,7 @@
 
 header, nav, main, section
 {
-	display: block;
+	display: flex;
 }
 
 html
