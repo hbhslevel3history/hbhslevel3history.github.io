@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web|Yanone+Kaffeesatz|Open+Sans');
 
-html {
-	margin: 0;
-	padding: 0;
+header, nav, main, section
+{
+	display: block;
+}
+
+html
+{
+	min-height: 100%;
 }
 a:link {
 	text-decoration: none;
@@ -44,17 +49,26 @@ nav {
 	font-size: 1.5em;
 	height: 10%;
 }
-nav ul {
-	margin:0;
+nav ul
+{
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #1a4b1d;
+	margin: 0;
 	padding: 0;
-	list-style: none;
-	background-color: #06799F;
+	border-top: 2px #536754 solid;
+	border-bottom: 2px #536754 solid;
+	display: flex;
 }
-nav ul li {
-	background-color: #06799F;
-	padding:1% 0% 1% 0%;
-	border-left: #000 solid 2px;
-	color: #fff;
+nav ul li
+{
+	margin: 0;
+	padding: 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	flex-grow: 1;
+	
 }
 nav a:link {
     text-decoration: none;
