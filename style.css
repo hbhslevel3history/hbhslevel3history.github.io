@@ -49,12 +49,7 @@ nav ul li
 	text-align: center;
 	
 }
-nav a:link {
-    text-decoration: none;
-    color: #fff;
-}
-
-nav a:visited {
+header a:link, header a:visited, nav a:link, nav a:visited {
     text-decoration: none;
     color: #fff;
 }
