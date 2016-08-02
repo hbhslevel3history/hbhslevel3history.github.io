@@ -101,3 +101,55 @@ form {
 .invisible {
 	opacity: 0;
 }
+@media all and (max-width: 480px) 
+{
+	header
+	{
+		text-align: center;
+	}
+	nav ul
+	{
+		flex-direction: column;
+		text-align: center;
+		flex-grow: 1;
+	}
+	.transparent-box {
+		flex-direction: column;
+	}
+	.splash-nav {
+		text-align: center;
+		flex-basis: 100%;
+		padding-bottom: 0.9em;
+	}
+	.splash-nav-right {
+		flex-basis: 100%;
+		border-top: #fff solid 3px;
+		border-left: #fff solid 0px;
+		text-align: center;
+	}
+	#slider
+	{
+		width: 200px;
+		height: 112px;
+	}
+	#slider .slides
+	{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 4400px;
+	height: 112px;
+	}
+	#slider .slide img
+	{
+		width: 200px;
+		height: 112px;
+	}
+	img
+	{
+		margin: auto;
+		height: auto;
+		width: 75%;
+		float: none;
+	}
+}
