@@ -101,7 +101,7 @@ form {
 .invisible {
 	opacity: 0;
 }
-@media all and (width : 720px) and (orientation : portrait) {
+@media all and (max-width: 480px)  {
 	header
 	{
 		text-align: center;
