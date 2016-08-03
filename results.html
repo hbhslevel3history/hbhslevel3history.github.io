@@ -36,12 +36,12 @@
 	     				alert(pathname);
 	     			 	var search = pathname.search.split('=')
 	     			 	result = search[search.length-1]
-	     			 	result = result.replace('+', ' ');
+	     			 	result = result.replace('+', ' ').tolowerCase();
 	 				alert(result);
 	 			});
 	 			if ($('.item').text().indexOf("result") != -1)
 				{
-	    				alert('found Dennis' + result);    
+	    				alert('found ' + result);    
 				}
 			</script>
 	
