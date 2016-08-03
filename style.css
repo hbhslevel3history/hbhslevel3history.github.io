@@ -111,6 +111,10 @@ form {
 		float: left;
 		width: 100%;
 	}
+	nav ul
+	{
+		flex-direction: column;
+	}
 	nav ul li
 	{
 		float: none;
