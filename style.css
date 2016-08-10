@@ -100,7 +100,7 @@ form {
 .invisible {
 	opacity: 0;
 }
-@media all and (max-width: 480px)  {
+@media mobile and (max-width: 600px)  {
 	header
 	{
 		text-align: center;
@@ -108,6 +108,11 @@ form {
 	form
 	{
 		float: left;
+		width: 100%;
+	}
+	main
+	{
+		margin: 0;
 		width: 100%;
 	}
 	nav ul
