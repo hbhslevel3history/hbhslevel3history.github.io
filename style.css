@@ -100,7 +100,7 @@ form {
 .invisible {
 	opacity: 0;
 }
-@media mobile and (max-width: 600px)  {
+@media all and (max-width: 600px)  {
 	header
 	{
 		text-align: center;
