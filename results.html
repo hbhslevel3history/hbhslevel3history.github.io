@@ -39,11 +39,10 @@
 	     			 	result = result.replace('+', ' ').toLowerCase();
 	 				alert(result);
 	 			});
-	// 			jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
-    	//				return function( elem ) {
-        //					return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-    	//				};
-	//			});
+	 			if (stringvalue.toLocaleLowerCase().indexOf(result)!=-1)
+				 {
+	            			alert("found" + result);
+        			}
 			</script>
 	
 		</section>	
