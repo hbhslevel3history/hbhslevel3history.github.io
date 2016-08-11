@@ -35,12 +35,12 @@
 	 				var pathname = window.location;
 	     				alert(pathname);
 	     			 	var search = pathname.search.split('=')
-	     			 	result = search[search.length-1]
+	     			 	var result = search[search.length-1]
 	     			 	result = result.replace('+', ' ').toLowerCase();
 	 				alert(result);
 	 			});
 	 			$(document).ready(function() {
-	 				$('div:contains(' + result + ')').alert('found' + result);
+	 				$('div:contains(' + $result + ')').alert('found' + $result);
 	 			});
 			</script>
 	
