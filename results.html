@@ -39,7 +39,9 @@
 	     			 	result = result.replace('+', ' ').toLowerCase();
 	 				alert(result);
 	 			});
-	 			$('div:contains(' + result + ')').alert('found' + result);
+	 			$(document).ready(function() {
+	 				$('div:contains(' + result + ')').alert('found' + result);
+	 			});
 			</script>
 	
 		</section>	
