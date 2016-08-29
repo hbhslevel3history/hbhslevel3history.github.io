@@ -83,6 +83,10 @@ h3 {
 	font-size: 1em;
 	font-style: strong;
 }
+.img-align-left {
+    	float: left;
+    	margin: 0 15px 15px 0;
+}
 .img-align-right {
     	float: right;
     	margin: 0 0 15px 15px;
