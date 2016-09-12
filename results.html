@@ -38,8 +38,12 @@
 	     			 	var result = search[search.length-1]
 	     			 	result = result.replace('+', ' ').toLowerCase();
 	 				alert(result);
-	 				$("sovereignty.html").scrollTop($("*:contains(result):eq(n)").offset().top);
 	 			});
+	 			$(document).ready(function(){
+	 			window.location.href = "http://example.com/new_url";
+    				$("p:contains(is)").css("background-color", "yellow");
+				});
+				
 			</script>
 	
 		</section>	
