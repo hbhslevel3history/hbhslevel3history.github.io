@@ -38,11 +38,11 @@
 	     			 	var result = search[search.length-1]
 	     			 	result = result.replace('+', ' ');
 	 				alert(result);
-	 				window.location.href = "http://hbhslevel3history.github.io/sovereignty.html";
-	 			});
-	 			$(document).ready(function(){
-	 				var content = $("p").text();
-	 				alert(content);
+	 				
+	 				var sovcontent; 
+	 				$(sovcontent).load( "sovereignty.html" p, function() {
+  					alert( "Load was performed." );
+  					alert(sovcontent);
 				});
 			</script>
 	
