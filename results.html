@@ -26,8 +26,11 @@
 	</nav>
 	<main>
 		<section>
-			<p class="item">
-				Dennis
+			<p id = "govcontent">
+				
+			</p>
+			<p id = "sovcontent">
+				
 			</p>
 			<script>
 		    		$(document).ready(function() {
@@ -39,8 +42,12 @@
 	     			 	result = result.replace('+', ' ');
 	 				alert(result);
 	 				
-	 				var sovcontent;
-	 				$( sovcontent ).load( "sovereignty.html p" );
+	 				$( "#sovcontent" ).load( " sovereignty.html p ", function() {
+  						alert( " Sov Load was performed." );
+					});
+					$( "#govcontent" ).load( " liberal.html p ", function() {
+  						alert( "Gov Load was performed." );
+					});
 			</script>
 	
 		</section>	
