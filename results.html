@@ -18,10 +18,9 @@
 	     	 	result = result.replace('+', ' ').toLowerCase();
 				alert(result);
 	 		$("button").click(function(){
-       				$("#govcontent").load("liberal.html p");
-       				$("#sovcontent").load("sovereignty.html p");
-       				var govcontent = document.getElementById("govcontent").innerHTML;
-       				var sovcontent = document.getElementById("sovcontent").innerHTML;
+       				$("#govcontent").load("liberal.html p").toLowerCase();
+       				$("#sovcontent").load("sovereignty.html p").toLowerCase();
+       				$("p:contains('" + result + "')").css("background-color", "yellow");
     			});
 		});	
 	</script>
