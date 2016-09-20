@@ -15,11 +15,13 @@
 	     		alert(pathname);
 	     	 	var search = pathname.search.split('=')
 	     	 	var result = search[search.length-1]
-	     	 	result = result.replace('+', ' ');
+	     	 	result = result.replace('+', ' ').toLowerCase();
 				alert(result);
 	 		$("button").click(function(){
        				$("#govcontent").load("liberal.html p");
        				$("#sovcontent").load("sovereignty.html p");
+       				var govcontent = document.getElementById("govcontent").innerHTML;
+       				var sovcontent = document.getElementById("sovcontent").innerHTML;
     			});
 		});	
 	</script>
