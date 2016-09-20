@@ -8,6 +8,25 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/ico" href="images/blue_book.ico">
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.1.min.js"></script>
+	<script>
+	    	$(document).ready(function() {
+	   		$(location).attr('href');
+	 		var pathname = window.location;
+	     		alert(pathname);
+	     	 	var search = pathname.search.split('=')
+	     	 	var result = search[search.length-1]
+	     	 	result = result.replace('+', ' ');
+				alert(result);
+	 		$("button").click(function(){
+       				$( "#sovcontent" ).load( " sovereignty.html ", function() {
+  					alert( " Sov Load was performed." );
+				});
+				$( "#govcontent" ).load( " liberal.html ", function() {
+  					alert( "Gov Load was performed." );
+				});
+    			});
+		});	
+	</script>
 </head>
 <body>
 	<header>
@@ -26,27 +45,8 @@
 	</nav>
 	<main>
 		<section>
-			
-			<script>
-		    		$(document).ready(function() {
-		    			$(location).attr('href');
-	 				var pathname = window.location;
-	     				alert(pathname);
-	     			 	var search = pathname.search.split('=')
-	     			 	var result = search[search.length-1]
-	     			 	result = result.replace('+', ' ');
-	 				alert(result);
-	 				$("button").click(function(){
-        					$( "#sovcontent" ).load( " sovereignty.html ", function() {
-  							alert( " Sov Load was performed." );
-						});
-						$( "#govcontent" ).load( " liberal.html ", function() {
-  							alert( "Gov Load was performed." );
-						});
-    					});
-	 				
-		    		});	
-			</script>
+		
+			<button>Get External Content</button>
 			<p id = "govcontent">
 				Hi there kiddos
 			</p>
