@@ -18,12 +18,8 @@
 	     	 	result = result.replace('+', ' ');
 				alert(result);
 	 		$("button").click(function(){
-       				$( "#sovcontent" ).load( " sovereignty.html ", function() {
-  					alert( " Sov Load was performed." );
-				});
-				$( "#govcontent" ).load( " liberal.html ", function() {
-  					alert( "Gov Load was performed." );
-				});
+       				$("#govcontent").load("liberal.html");
+       				$("#sovcontent").load("sovereignty.html");
     			});
 		});	
 	</script>
