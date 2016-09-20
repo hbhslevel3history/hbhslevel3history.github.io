@@ -26,12 +26,7 @@
 	</nav>
 	<main>
 		<section>
-			<p id = "govcontent">
-				
-			</p>
-			<p id = "sovcontent">
-				
-			</p>
+			
 			<script>
 		    		$(document).ready(function() {
 		    			$(location).attr('href');
@@ -41,15 +36,23 @@
 	     			 	var result = search[search.length-1]
 	     			 	result = result.replace('+', ' ');
 	 				alert(result);
+	 				$("button").click(function(){
+        					$( "#sovcontent" ).load( " sovereignty.html ", function() {
+  							alert( " Sov Load was performed." );
+						});
+						$( "#govcontent" ).load( " liberal.html ", function() {
+  							alert( "Gov Load was performed." );
+						});
+    					});
 	 				
-	 				$( "#sovcontent" ).load( " sovereignty.html ", function() {
-  						alert( " Sov Load was performed." );
-					});
-					$( "#govcontent" ).load( " liberal.html ", function() {
-  						alert( "Gov Load was performed." );
-					});
 		    		});	
 			</script>
+			<p id = "govcontent">
+				Hi there kiddos
+			</p>
+			<p id = "sovcontent">
+				kiddos
+			</p>
 		</section>	
 	</main>
 	<footer>
