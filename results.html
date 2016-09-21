@@ -16,7 +16,9 @@
 	     	 	var search = pathname.search.split('=')
 	     	 	var result = search[search.length-1]
 	     	 	result = result.replace('+', ' ').toLowerCase();
-				alert(result);
+			alert(result);
+			$("#govcontent").load("liberal.html p");
+       			$("#sovcontent").load("sovereignty.html p");
 		});	
 	</script>
 </head>
@@ -47,8 +49,6 @@
 			</p>
 			<script>
 				$("button").click(function(){
-       					$("#govcontent").load("liberal.html p");
-       					$("#sovcontent").load("sovereignty.html p");
        					$( "p:contains(result)" ).css( "text-decoration", "underline" );
 				});
     			</script>
