@@ -51,8 +51,7 @@
        					$("#sovcontent").load("sovereignty.html p");
        					document.getElementById("sovcontent").innerHTML = document.getElementById("sovcontent").innerHTML.toLowerCase();
        					document.getElementById("govcontent").innerHTML = document.getElementById("govcontent").innerHTML.toLowerCase();
-       					$( "p:contains(result)" ).css( "text-decoration", "underline" );
-    				});
+       					$('div:contains(' + $result + ')').css('background','yellow');
     			</script>
 		</section>	
 	</main>
