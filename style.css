@@ -141,3 +141,8 @@ form {
 		float: none;
 	}
 }
+#govcontent, #sovcontent
+{
+	text-transform: lowercase;
+}
+}
