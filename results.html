@@ -19,6 +19,20 @@
 			alert(result);
 			$("#govcontent-p").load("liberal.html p");
        			$("#sovcontent-p").load("sovereignty.html p");
+       			
+       			if ($("#govcontent p:contains(result)"))
+       			{
+				document.getElementById("govcontent-p").innerHTML = "Found instances of your search term in the Liberal Government page. Go Here?";	
+       			}
+       			if ($("#sovcontent p:contains(result)"))
+       			{
+       				document.getElementById("sovcontent-p").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page. Go Here?";	
+       			}
+       			else
+       			{
+       				document.getElementById("govcontent-p").innerHTML = "";	
+       				document.getElementById("sovcontent-p").innerHTML = "No instances of your search term  found in any pages. Try another search term.";	
+       			}
 		});	
 	</script>
 </head>
@@ -45,24 +59,6 @@
 			<div id = "sovcontent">
 				<p id="sovcontent-p">Hi there kiddos</p>
 			</div>
-			<script>
-				$(document).ready(function(){
-					
-       					if ($("#govcontent p:contains(result)"))
-       					{
-						document.getElementById("govcontent-p").innerHTML = "Found instances of your search term in the Liberal Government page. Go Here?";	
-       					}
-       					if ($("#sovcontent p:contains(result)"))
-       					{
-       						document.getElementById("sovcontent-p").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page. Go Here?";	
-       					}
-       					else
-       					{
-       						document.getElementById("govcontent-p").innerHTML = "";	
-       						document.getElementById("sovcontent-p").innerHTML = "No instances of your search term  found in any pages. Try another search term.";	
-       					}
-				});
-    			</script>
 		</section>	
 	</main>
 	<footer>
