@@ -17,21 +17,21 @@
 	     	 	var result = search[search.length-1]
 	     	 	result = result.replace('+', ' ').toLowerCase();
 			alert(result);
-			$("#govcontent-p").load("liberal.html p");
-       			$("#sovcontent-p").load("sovereignty.html p");
+			$("#govcontent").load("liberal.html p");
+       			$("#sovcontent").load("sovereignty.html p");
        			
        			if ($("#govcontent p:contains(result)"))
        			{
-				document.getElementById("govcontent-p").innerHTML = "Found instances of your search term in the Liberal Government page. Go Here?";	
+				document.getElementById("govcontent").innerHTML = "Found instances of your search term in the Liberal Government page. Go Here?";	
        			}
        			if ($("#sovcontent p:contains(result)"))
        			{
-       				document.getElementById("sovcontent-p").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page. Go Here?";	
+       				document.getElementById("sovcontent").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page. Go Here?";	
        			}
        			else
        			{
-       				document.getElementById("govcontent-p").innerHTML = "";	
-       				document.getElementById("sovcontent-p").innerHTML = "No instances of your search term  found in any pages. Try another search term.";	
+       				document.getElementById("govcontent").innerHTML = "";	
+       				document.getElementById("sovcontent").innerHTML = "No instances of your search term  found in any pages. Try another search term.";	
        			}
 		});	
 	</script>
@@ -54,10 +54,10 @@
 	<main>
 		<section>
 			<div id = "govcontent">
-				<p id="govcontent-p">Hi there kiddos</p>
+				<p id="govcontent">Hi there kiddos</p>
 			</div>
 			<div id = "sovcontent">
-				<p id="sovcontent-p">Hi there kiddos</p>
+				<p id="sovcontent">Hi there kiddos</p>
 			</div>
 		</section>	
 	</main>
