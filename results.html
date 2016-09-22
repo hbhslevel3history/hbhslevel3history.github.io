@@ -17,8 +17,8 @@
 	     	 	var result = search[search.length-1]
 	     	 	result = result.replace('+', ' ').toLowerCase();
 			alert(result);
-			$("#govcontent").load("liberal.html p");
-       			$("#sovcontent").load("sovereignty.html p");
+			$("#govcontent p").load("liberal.html p");
+       			$("#sovcontent p").load("sovereignty.html p");
 		});	
 	</script>
 </head>
@@ -39,19 +39,27 @@
 	</nav>
 	<main>
 		<section>
-		
-			<button>Get External Content</button>
-			<p id = "govcontent">
-				Hi there kiddos
-			</p>
-			<p id = "sovcontent">
-				kiddos
-			</p>
+			<div id = "govcontent">
+				<p id="govcontent-p">Hi there kiddos</p>
+			</div>
+			<div id = "sovcontent">
+				<p id="sovcontent-p">Hi there kiddos</p>
+			</div>
 			<script>
 				$(document).ready(function(){
-       					if($( "p:contains(result)" ))
+					
+       					if ($("#govcontent p:contains(result)"))
        					{
-       						alert('found');
+						document.getElementById("govcontent-p").innerHTML = "Found instances of your search term " + result + "in the Liberal Government page. <a href="liberal.html">Go Here?</a>";	
+       					}
+       					if ($("#sovcontent p:contains(result)"))
+       					{
+       						document.getElementById("sovcontent-p").innerHTML = "Found instances of your search term " + result + " in the Struggle for Sovereignty page. <a href="sovereignty.html">Go Here?</a>";	
+       					}
+       					else
+       					{
+       						document.getElementById("govcontent-p").innerHTML = "";	
+       						document.getElementById("sovcontent-p").innerHTML = "No instances of your search term " + result + " found in any pages. Try another search term.";	
        					}
 				});
     			</script>
