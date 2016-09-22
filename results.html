@@ -49,7 +49,10 @@
 			</p>
 			<script>
 				$(document).ready(function(){
-       					$( "p:contains(result)" ).css( "text-decoration", "underline" );
+       					if($( "p:contains(result)" ))
+       					{
+       						alert('found');
+       					}
 				});
     			</script>
 		</section>	
