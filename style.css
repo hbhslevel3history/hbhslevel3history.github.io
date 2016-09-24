@@ -106,6 +106,9 @@ form {
 	background-repeat: no-repeat;
 	width: 1.5em;
 }
+#govcontent a, #sovcontent a {
+	display: none;
+}
 .invisible {
 	opacity: 0;
 }
