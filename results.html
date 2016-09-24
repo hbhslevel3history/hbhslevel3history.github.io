@@ -59,18 +59,20 @@
 					
 					if ($("#govcontent p:contains(result)"))
 		       			{
+		       				 $("p").css("text-transform", "none");
 						document.getElementById("govcontent").innerHTML = "Found instances of your search term in the Liberal Government page. Go Here?";	
 		       			}
 		       			if ($("#sovcontent p:contains(result)"))
 		       			{
+		       				 $("p").css("text-transform", "none");
 		       				document.getElementById("sovcontent").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page. Go Here?";	
 		       			}
 		       			else
 		       			{
+		       				$("p").css("text-transform", "none");
 		       				document.getElementById("govcontent").innerHTML = "";	
 		       				document.getElementById("sovcontent").innerHTML = "No instances of your search term  found in any pages. Try another search term.";	
 		       			}
-
 				});	
        			</script>
 		</section>	
