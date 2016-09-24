@@ -9,8 +9,8 @@
 	<link rel="icon" type="image/ico" href="images/blue_book.ico">
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.1.min.js"></script>
 	<script>
-	    				govload.abort();
-					sovload.abort();
+	    				$(govload).abort();
+					$(sovload).abort();
 					
 					if ($("#govcontent p:contains(result)"))
 		       			{
@@ -71,6 +71,7 @@
 			              			$("#sovcontent").html($(data).find('p'));
 			            		}
 		            		});
+		            		
 		          	
 
 				});	
