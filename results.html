@@ -55,13 +55,13 @@
 		          		govload.abort();
 					sovload.abort();
 					
-					if ($("#govcontent p:contains(result)"))
+					if ($("#govcontent p:contains('result')"))
 		       			{
 		       				 $("p").css("text-transform", "none");
 						document.getElementById("govcontent").innerHTML = "Found instances of your search term in the Liberal Government page.";
 						$("section a").css("display", "initial");
 		       			}
-		       			if ($("#sovcontent p:contains(result)"))
+		       			if ($("#sovcontent p:contains('result')"))
 		       			{
 		       				 $("p").css("text-transform", "none");
 		       				document.getElementById("sovcontent").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page.";
