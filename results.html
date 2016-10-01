@@ -36,8 +36,8 @@
 			sovload.abort();
 			
 			alert(result);
-			$("#govcontent p:contains('result')").html("Found instances of your search term in the Liberal Government page.").css("text-transform", "none");
-			$("#sovcontent p:contains('result')").html("Found instances of your search term in the Struggle for Sovereignty page.").css("text-transform", "none");
+			$("#govcontent p:contains('" + result + "')").html("Found instances of your search term in the Liberal Government page.").css("text-transform", "none");
+			$("#sovcontent p:contains('" + result + "')").html("Found instances of your search term in the Struggle for Sovereignty page.").css("text-transform", "none");
 		});
 	</script>
 </head>
