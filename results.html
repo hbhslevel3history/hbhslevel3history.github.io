@@ -26,8 +26,8 @@
 	</nav>
 	<main>
 		<section>
-			<p id="govcontent"><a href="liberal.html">Go Here?</a></p>
-			<p id="sovcontent">Error: Something went wrong.<a href="sovereignty.html">Go Here?</a></p>
+			<a href="liberal.html">Go Here?</a><p id="govcontent"></p>
+			<a href="sovereignty.html">Go Here?</a><p id="sovcontent">Error: Something went wrong.</p>
 			<script>
 				$(document).ready(function() {
 			   		$(location).attr('href');
@@ -57,13 +57,13 @@
 		       			{
 		       				 $("p").css("text-transform", "none");
 						document.getElementById("govcontent").innerHTML = "Found instances of your search term in the Liberal Government page.";
-						$("#sovcontent a").css("display", "initial");
+						$("section a").css("display", "initial");
 		       			}
 		       			if ($("#sovcontent p:contains(result)"))
 		       			{
 		       				 $("p").css("text-transform", "none");
 		       				document.getElementById("sovcontent").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page.";
-		       				$("#sovcontent a").css("display", "initial");
+		       				$("section a").css("display", "initial");
 		       			}
 		       			else
 		       			{
