@@ -26,8 +26,8 @@
 	</nav>
 	<main>
 		<section>
-			<a href="liberal.html">Go Here?</a><p id="govcontent"></p>
-			<a href="sovereignty.html">Go Here?</a><p id="sovcontent">Error: Something went wrong.</p>
+			<p id="govcontent"></p><a href="liberal.html">Go Here?</a>
+			<p id="sovcontent">Error: Something went wrong.</p><a href="sovereignty.html">Go Here?</a>
 			<script>
 				$(document).ready(function() {
 			   		$(location).attr('href');
@@ -37,6 +37,8 @@
 			     	 	var result = search[search.length-1]
 			     	 	result = result.replace('+', ' ').toLowerCase();
 					alert(result);
+					$("section a").css("display", "none");
+					$("section a").css("display", "none");
 		       			var govload = $.ajax({
 			            		url: 'liberal.html',
 			        		success: function(data) {
