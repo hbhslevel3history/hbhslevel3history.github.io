@@ -36,18 +36,10 @@
 			sovload.abort();
 			
 			alert(result);
-			if ($("#govcontent p:contains('result')"))
-		       	{
-		       		$("p").css("text-transform", "none");
-				document.getElementById("govcontent").innerHTML = "Found instances of your search term in the Liberal Government page.";
-				$("section a").css("display", "initial");
-		       	}
-		       	if ($("#sovcontent p:contains('result')"))
-		       	{
-		       		$("p").css("text-transform", "none");
-		       		document.getElementById("sovcontent").innerHTML = "Found instances of your search term in the Struggle for Sovereignty page.";
-		    		$("section a").css("display", "initial");
-		       }	
+			$("#govcontent p:contains(is)").html("Found instances of your search term in the Liberal Government page.")
+			$("#sovcontent p:contains(is)").html("Found instances of your search term in the Struggle for Sovereignty page.")
+			$("p").css("text-transform", "none");
+			$("section a").css("display", "initial");
 		});
 	</script>
 </head>
