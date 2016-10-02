@@ -640,7 +640,6 @@ function create_div(dleft, dtop, dwidth, dheight)
 	// This part creates the closing X
 	findwindow.innerHTML += '<div onclick="hide();" class="close" style="'
 	+ ';cursor: default' // make mouse arrow stay an arrow instead of turning to text arrow
-	+ ';font-weight: bold'
 	+ ';background-color: #B61123'
 	+ ';float: right'
 	+ ';text-align: center'
@@ -651,10 +650,10 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ '</div><br />\n';
 // This part creates the instructions and the "find" button
 	findwindow.innerHTML += '<div id="window_body" style="padding: 5px;">'
-	+ '<form onsubmit="return false;"><input type="search" size="25" maxlength="25" id="fwtext"'
+	+ '<form onsubmit="return false;"><input type="search" size="25" maxlength="25" class="searchFormat" id="fwtext"'
 	+ ' onchange="resettext();" placeholder="Enter text to find">'
-	+ '<input type="button" value="Find Prev" onclick="findprev();">'
-	+ '<input id="btn" type="button" value="Find Next" onclick="this.blur(); findit();">' // ver 5.3 - 5/15/2015 - added this.blur();
+	+ '<input type="button" value="Find Prev" class="searchFormat" onclick="findprev();">'
+	+ '<input id="btn" type="button" value="Find Next" class="searchFormat" onclick="this.blur(); findit();">' // ver 5.3 - 5/15/2015 - added this.blur();
 	+ ' <span id="find_msg"><br /></span>'
 	+ '</form></div>\n';
 	// ^ ver 5.1 - 10/17/2014
