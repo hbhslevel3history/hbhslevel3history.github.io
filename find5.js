@@ -635,7 +635,7 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ ';border: 1px solid ' + find_text_color
 	+ ';background-color: ' + find_window_border
 	+ ';float: left' 
-	+ ';" onmouseover="over=1;" onmouseout="over=0;">'
+	+ ';" onmouseover="over=1;" class="searchFormat" onmouseout="over=0;">'
 	+ 'Find Window</div>';
 	// This part creates the closing X
 	findwindow.innerHTML += '<div onclick="hide();" class="close" style="'
