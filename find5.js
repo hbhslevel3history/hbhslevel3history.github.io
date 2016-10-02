@@ -638,7 +638,7 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ 'Find Window</div>';
 	// This part creates the closing X
 	findwindow.innerHTML += '<div onclick="hide();" class="close" style="text-align: center'
-	+ ';width: ' + (16) + 'px'
+	+ ';width: ' + (18) + 'px'
 	+ ';cursor: default' // make mouse arrow stay an arrow instead of turning to text arrow
 	+ ';font-weight: bold'
 	+ ';background-color: red'
