@@ -1,5 +1,4 @@
-/* Cool Javascript Find on this Page 
-Ver 5.3
+/*
 Written by Jeff Baker on September, 8, 2007.
 Copyright 2014 by Jeff Baker - 
 Version 5.0 created 7/16/2014
@@ -739,64 +738,35 @@ function textarea2pre(el)
 	
 	el.style.display = "none"; // hide textarea
 	pre.id = "pre_"+highlights.length; // Add id to pre
-	
-	// Set onclick to turn pre off and turn textarea back on and perform a click on the textarea
-	// for a possible onclick="this.select()" for the textarea
 	pre.onclick = function() {this.style.display = "none"; el.style.display = "block"; el.focus(); el.click()};
-	
-	// this.parentNode.removeChild(this); // old remove pre in onclick function above
 	 
-} // end function textarea2pre(el)
+} 
 
-// ver 5.1 - 10/17/2014
 function selectElementContents(el) 
 {
-    /* http://stackoverflow.com/questions/8019534/how-can-i-use-javascript-to-select-text-in-a-pre-node-block */
 	if (window.getSelection && document.createRange) {
-        // IE 9 and non-IE
         var range = document.createRange();
         range.selectNodeContents(el);
         var sel = window.getSelection();
         sel.removeAllRanges();
         sel.addRange(range);
     } else if (document.body.createTextRange) {
-        // IE < 9
         var textRange = document.body.createTextRange();
         textRange.moveToElementText(el);
         textRange.select();
-        //textRange.execCommand("Copy");
     }
-} // end function selectElementContents(el) 
+} 
 
 
 // This part creates a visible button on the HTML page to
 // where the script is pasted in the HTML code
-document.write('<input type="button" value="Find on this page..."'
+document.write('<input type="button" id="mySearch" value="Find on this page..."'
 	+ ' onclick="show();">');
 	
 // Create the DIV
 var findwindow = document.createElement("div");
 create_div();
 
-
-
-
-/* 10/5/2015 - To not have a find window that opens but rather to
-	have the find box displayed in the page:
-	1. Comment out lines 314, 315, 774, 775 and 779
-	2. Uncomment all the lines below:
-*/
-/*var find_content = '<div id="window_body" style="padding: 5px;">'
-+ 'Type in text to find: '
-+ '<form onsubmit="return false;"><input type="search" size="25" maxlength="25" id="fwtext"'
-+ ' onchange="resettext();">'
-+ '<input type="button" value="Find Prev" onclick="findprev();">'
-+ '<input id="btn" type="button" value="Find Next" onclick="findit();">'
-+ '</form></div>'
-+ '<div id="find_msg"><br /></div>';
-document.write(find_content);
-document.getElementById('fwtext').onkeydown = checkkey;
-*/
 
 var find_msg = document.getElementById('find_msg');
 
