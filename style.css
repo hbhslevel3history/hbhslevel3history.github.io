@@ -97,9 +97,10 @@ form {
 	padding: 0;
 }
 #mySearch {
-	font-size: 0.7em;
-	background-color: #fff;
+	font-size: 0.4em;
+	background-color: #313435;
 	float: left;
+	color: #fff;
 }
 .invisible {
 	opacity: 0;
