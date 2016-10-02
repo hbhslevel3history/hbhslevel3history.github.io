@@ -641,7 +641,7 @@ function create_div(dleft, dtop, dwidth, dheight)
 	findwindow.innerHTML += '<div onclick="hide();" class="close" style="'
 	+ ';cursor: default' // make mouse arrow stay an arrow instead of turning to text arrow
 	+ ';font-weight: bold'
-	+ ';background-color: red'
+	+ ';background-color: #B61123'
 	+ ';float: right'
 	+ ';text-align: center'
 	+ ';width: 20px'
