@@ -623,6 +623,7 @@ function create_div(dleft, dtop, dwidth, dheight)
 	findwindow.style.padding = '0px'; 
 	findwindow.style.zIndex = 2000;
 	findwindow.style.fontSize = '14px';
+	findwindow.style.fontFamily = 'Open Sans';
 	findwindow.style.overflowX = 'hidden';
 	//findwindow.style.display = "block";
 	
@@ -641,6 +642,7 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ ';cursor: default' // make mouse arrow stay an arrow instead of turning to text arrow
 	+ ';font-weight: bold'
 	+ ';background-color: red'
+	+ 'color: white'
 	+ ';float: right'
 	+ ';text-align: center'
 	+ ';width: 20px'
