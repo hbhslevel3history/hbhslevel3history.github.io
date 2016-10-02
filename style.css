@@ -102,6 +102,10 @@ form {
 	float: left;
 	color: #fff;
 }
+.searchFormat {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+}
 .invisible {
 	opacity: 0;
 }
