@@ -121,6 +121,7 @@ form {
 	header
 	{
 		text-align: center;
+		float: left;
 	}
 	form
 	{
