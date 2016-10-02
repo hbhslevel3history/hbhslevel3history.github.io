@@ -642,7 +642,6 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ ';cursor: default' // make mouse arrow stay an arrow instead of turning to text arrow
 	+ ';font-weight: bold'
 	+ ';background-color: red'
-	+ ';color: white'
 	+ ';float: right'
 	+ ';text-align: center'
 	+ ';width: 20px'
