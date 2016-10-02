@@ -111,11 +111,11 @@ form {
 }
 .highlight
 {
-	background-color: DeepSkyBlue;
+	background-color: LightBlue;
 }
 .find_selected
 {
-	background-color: LightBlue;
+	background-color: DeepSkyBlue;
 }
 @media screen and (max-width: 600px)  {
 	header
