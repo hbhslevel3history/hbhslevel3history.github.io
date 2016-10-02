@@ -645,7 +645,8 @@ function create_div(dleft, dtop, dwidth, dheight)
 	+ ';text-align: center'
 	+ ';width: 20px'
 	+ ';height: 20px'
-	+ ';color: white' 
+	+ ';color: white'
+	+ ';font-size: 14pt' 
 	+ ';">'
 	+ 'X' // write the letter X
 	+ '</div><br />\n';
