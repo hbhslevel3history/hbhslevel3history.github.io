@@ -18,9 +18,11 @@
 			var result = search[search.length-1];
 			result = result.replace('+', ' ');
 			window.find(result);
-			if (window.find(result, true)) { 
+			if (window.find(result, true))
+			{
    				document.execCommand("hiliteColor", false, "FirstColor");
-	   			while (window.find(result, true) {
+	   			while (window.find(result, true)
+				 {
       					document.execCommand("hiliteColor", false, "SecondColor");
   				 }
 			}
