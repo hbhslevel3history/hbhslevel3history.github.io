@@ -98,13 +98,8 @@ form {
 }
 #mySearch {
 	font-size: 0.7em;
-}
-#submitButton {
-	font-size: 0.7em;
-	background-image: url('/images/search.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 1.5em;
+	background-color: #fff;
+	float: left;
 }
 .invisible {
 	opacity: 0;
