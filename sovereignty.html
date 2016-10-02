@@ -9,25 +9,7 @@
 	<link rel="icon" type="image/ico" href="images/blue_book.ico">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.1.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$(location).attr('href');
-			var pathname = window.location;
-			alert(pathname);
-			var search = pathname.search.split('=')
-			var result = search[search.length-1];
-			result = result.replace('+', ' ');
-			window.find(result);
-			if (window.find(result, true))
-			{
-   				document.execCommand("hiliteColor", false, "FirstColor");
-	   			while (window.find(result, true))
-				 {
-      					document.execCommand("hiliteColor", false, "SecondColor");
-  				 }
-			}
-		});	
-	</script>
+	<script type="text/javascript" language="JavaScript" src="find5.js"></script>
 </head>
 <body>
 	<header>
