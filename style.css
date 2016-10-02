@@ -109,6 +109,14 @@ form {
 .invisible {
 	opacity: 0;
 }
+.highlight
+{
+	background-color: DeepSkyBlue;
+}
+.find_selected
+{
+	background-color: LightBlue;
+}
 @media screen and (max-width: 600px)  {
 	header
 	{
