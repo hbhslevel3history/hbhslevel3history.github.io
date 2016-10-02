@@ -109,10 +109,6 @@ form {
 .invisible {
 	opacity: 0;
 }
-#govcontent, #sovcontent
-{
-	text-transform: lowercase;
-}
 @media screen and (max-width: 600px)  {
 	header
 	{
@@ -144,6 +140,4 @@ form {
 		width: 75%;
 		float: none;
 	}
-}
-
 }
