@@ -8,7 +8,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/ico" href="images/blue_book.ico">
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.1.min.js"></script>
-	<script>
+</head>
+<body>
+	<header>
+		<form action="results.html">
+			<input type="search" id="mySearch" placeholder="Search for something..." name="search">
+			<button type="submit" id="submitButton"><span class="invisible">O</span></button>
+		</form>
+		<a href="index.html">HBHS Level 3 History</a>
+	</header>
+	<nav>
+		<ul>
+			<a href="sovereignty.html"><li>The Struggle for Sovereignty</li></a> 
+			<a href="liberal.html"><li>The Liberal Government</li></a> 
+			<a href="resources.html"><li>Other Resources</li></a>
+		</ul>	
+	</nav>
+	<main>
+		<section>
+			<p id="govcontent"></p><a href="liberal.html">Go Here?</a>
+			<p id="sovcontent">Error: Something went wrong.</p><a href="sovereignty.html">Go Here?</a>
+		</section>
+		<script>
 		$(document).ready(function() {
 			$(location).attr('href');
 			var pathname = window.location;
@@ -35,34 +56,10 @@
 			govload.abort();
 			sovload.abort();
 			
-			
-		});
-	</script>
-</head>
-<body>
-	<header>
-		<form action="results.html">
-			<input type="search" id="mySearch" placeholder="Search for something..." name="search">
-			<button type="submit" id="submitButton"><span class="invisible">O</span></button>
-		</form>
-		<a href="index.html">HBHS Level 3 History</a>
-	</header>
-	<nav>
-		<ul>
-			<a href="sovereignty.html"><li>The Struggle for Sovereignty</li></a> 
-			<a href="liberal.html"><li>The Liberal Government</li></a> 
-			<a href="resources.html"><li>Other Resources</li></a>
-		</ul>	
-	</nav>
-	<main>
-		<section>
-			<p id="govcontent"></p><a href="liberal.html">Go Here?</a>
-			<p id="sovcontent">Error: Something went wrong.</p><a href="sovereignty.html">Go Here?</a>
-		</section>
-		<script>
 			alert(result);
 			$("#govcontent p:contains('result')").html("Found instances of your search term in the Liberal Government page.").css("text-transform", "none");
 			$("#sovcontent p:contains('result')").html("Found instances of your search term in the Struggle for Sovereignty page.").css("text-transform", "none");
+			});
 		</script>
 	</main>
 	<footer>
