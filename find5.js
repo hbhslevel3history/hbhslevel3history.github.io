@@ -4,33 +4,13 @@ Copyright 2014 by Jeff Baker -
 Version 5.0 created 7/16/2014
 Updated 7/15/2016 ver 5.3c
 http://www.seabreezecomputers.com/tips/find.htm
-Paste the following javascript call in your HTML web page where
-you want a button called "Find on this Page...":
-
-<script type="text/javascript" language="JavaScript" 
-src="find5.js">
-</script>
-
-When you click on the button a floating DIV will pop up
-that will have a text box for users to enter in the text they
-want to find on the page.  
-
-WARNING: If you want to place a second "Find on this page..."
-button somewhere on the same page then use the code below for
-the second button, otherwise firefox and netscape will not
-display the text that users type in and it will not find
-text correctly because there will be two different text input
-boxes with the same name:
-
-<input type="button" value="Find on this page..." 
-onclick="show();">
 	
 */
 
 /* You may edit the following variables */
 var find_window_background = "white"; // the color of the pop-up window
 var find_window_border = "#06799F"; // the border color of pop-up window
-var find_text_color = "black"; // the color of the text in window
+var find_text_color = "06799F"; // the color of the text in window
 var find_title_color = "white"; // color of window title text
 var find_window_width = 245; // width of window
 var find_window_height = 85; // height of window
