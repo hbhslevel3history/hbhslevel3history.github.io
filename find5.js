@@ -14,7 +14,6 @@ var find_text_color = "06799F"; // the color of the text in window
 var find_title_color = "white"; // color of window title text
 var find_window_width = 245; // width of window
 var find_window_height = 85; // height of window
-var find_font_family = "Open Sans";
 var find_root_node = null; // Leave as null to search entire doc or put id of div to search (ex: 'content'). Ver 5.0a - 7/18/2014
 /* Do not edit the variables below this line */
 
@@ -625,7 +624,6 @@ function create_div(dleft, dtop, dwidth, dheight)
 	findwindow.style.zIndex = 2000;
 	findwindow.style.fontSize = '14px';
 	findwindow.style.overflowX = 'hidden';
-	findwindow.style.fontFamily = find_font_family;
 	//findwindow.style.display = "block";
 	
 	// This part creates the title bar
