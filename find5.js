@@ -29,7 +29,7 @@ onclick="show();">
 
 /* You may edit the following variables */
 var find_window_background = "white"; // the color of the pop-up window
-var find_window_border = "blue"; // the border color of pop-up window
+var find_window_border = "#06799F"; // the border color of pop-up window
 var find_text_color = "black"; // the color of the text in window
 var find_title_color = "white"; // color of window title text
 var find_window_width = 245; // width of window
