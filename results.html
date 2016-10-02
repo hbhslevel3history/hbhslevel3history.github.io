@@ -35,9 +35,7 @@
 			govload.abort();
 			sovload.abort();
 			
-			alert(result);
-			$("#govcontent p:contains('result')").html("Found instances of your search term in the Liberal Government page.").css("text-transform", "none");
-			$("#sovcontent p:contains('result')").html("Found instances of your search term in the Struggle for Sovereignty page.").css("text-transform", "none");
+			
 		});
 	</script>
 </head>
@@ -60,7 +58,12 @@
 		<section>
 			<p id="govcontent"></p><a href="liberal.html">Go Here?</a>
 			<p id="sovcontent">Error: Something went wrong.</p><a href="sovereignty.html">Go Here?</a>
-		</section>	
+		</section>
+		<script>
+			alert(result);
+			$("#govcontent p:contains('result')").html("Found instances of your search term in the Liberal Government page.").css("text-transform", "none");
+			$("#sovcontent p:contains('result')").html("Found instances of your search term in the Struggle for Sovereignty page.").css("text-transform", "none");
+		</script>
 	</main>
 	<footer>
 	</footer>
