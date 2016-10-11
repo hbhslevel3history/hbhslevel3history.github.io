@@ -117,7 +117,7 @@ form {
 {
 	background-color: DeepSkyBlue;
 }
-@media screen and (max-resolution: 0.9dppx) {
+@media bot (max-resolution: 1dppx) {
 	header
 	{
 		text-align: center;
