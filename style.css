@@ -149,35 +149,3 @@ form {
 		float: none;
 	}
 }
-@media screen and (max-resolution: 1dppx) {
-	header
-	{
-		text-align: center;
-	}
-	form
-	{
-		float: left;
-		width: 100%;
-	}
-	main
-	{
-		margin: 0;
-		width: 100%;
-	}
-	nav ul
-	{
-		flex-direction: column;
-	}
-	nav ul li
-	{
-		float: none;
-		width: 100%;
-	}
-	img
-	{
-		margin: auto;
-		height: auto;
-		width: 75%;
-		float: none;
-	}
-}
