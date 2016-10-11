@@ -117,7 +117,7 @@ form {
 {
 	background-color: DeepSkyBlue;
 }
-@media not (max-resolution: 1dppx) {
+@media not (max-resolution: 1dpi) and (max-width: 600px) {
 	header
 	{
 		text-align: center;
