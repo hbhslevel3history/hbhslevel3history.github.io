@@ -128,11 +128,6 @@ form {
 		float: left;
 		width: 100%;
 	}
-	main
-	{
-		margin: 0;
-		width: 100%;
-	}
 	nav ul
 	{
 		flex-direction: column;
@@ -142,6 +137,12 @@ form {
 	nav ul li
 	{
 		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	main
+	{
+		margin: 0;
 		width: 100%;
 	}
 	/*img
