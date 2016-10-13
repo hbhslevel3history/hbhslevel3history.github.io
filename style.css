@@ -141,11 +141,15 @@ form {
 		float: none;
 		width: 100%;
 	}
-	img
+	/*img
 	{
 		margin: auto;
 		height: auto;
 		width: 75%;
 		float: left;
+	}*/
+	#mySearch
+	{
+		width: 100%;
 	}
 }
