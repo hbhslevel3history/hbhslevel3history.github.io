@@ -136,6 +136,7 @@ form {
 	nav ul
 	{
 		flex-direction: column;
+		width: 100%;
 	}
 	nav ul li
 	{
