@@ -146,6 +146,6 @@ form {
 		margin: auto;
 		height: auto;
 		width: 75%;
-		float: none;
+		float: left;
 	}
 }
