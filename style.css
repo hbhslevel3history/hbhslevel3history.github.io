@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web|Yanone+Kaffeesatz|Open+Sans');
 
-header, nav, main, section
-{
+header, nav, main, section {
 	display: block;
 }
 
-html
-{
+html {
 	min-height: 100%;
 }
 body {
@@ -31,8 +29,7 @@ nav {
 	margin: 0;
 	font-size: 1.5em;
 }
-nav ul
-{
+nav ul {
 	list-style-type: none;
 	text-decoration: none;
 	margin: 0;
@@ -40,8 +37,7 @@ nav ul
 	display: flex;
 	justify-content: space-around;
 }
-nav ul li
-{
+nav ul li {
 	margin: 0;
 	padding: 5px 0 5px 0;
 	text-align: center;
@@ -109,49 +105,40 @@ form {
 .invisible {
 	opacity: 0;
 }
-.highlight
-{
+.highlight {
 	background-color: LightBlue;
 }
-.find_selected
-{
+.find_selected {
 	background-color: DeepSkyBlue;
 }
 @media screen and (max-width: 600px), screen and (max-device-width: 700px) {
-	header, nav
-	{
+	header, nav {
 		text-align: center;
 	}
-	main
-	{
+	main {
 		margin: 0;
 	}
-	form
-	{
+	form {
 		float: left;
 		width: 100%;
 	}
-	nav ul
-	{
+	nav ul {
 		flex-direction: column;
 		width: 100%;
 		margin: 0;
 	}
-	nav ul li
-	{
+	nav ul li {
 		float: none;
 		width: 100%;
 		margin: 0;
 	}
-	img
-	{
+	img {
 		margin: auto;
 		height: auto;
 		width: 75%;
 		float: left;
 	}
-	#mySearch
-	{
+	#mySearch {
 		width: 90%;
 		margin: 0 5% 10px 5%;
 	}
