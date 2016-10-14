@@ -112,6 +112,9 @@ form {
 	background-color: DeepSkyBlue;
 }
 @media screen and (max-width: 600px), screen and (max-device-width: 700px) {
+	body {
+		background-color: #fff;
+	}
 	header, nav {
 		text-align: center;
 		font-size: 3em;
@@ -133,7 +136,6 @@ form {
 		float: none;
 		width: 100%;
 		margin: 0;
-		border-bottom: #fff 2px solid;
 	}
 	img {
 		margin: auto;
